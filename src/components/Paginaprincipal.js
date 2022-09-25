@@ -13,7 +13,7 @@ function Home() {
             <img src={inicio} alt="Juego" />
         </div></>
         
-        
+        //TUKI
     );
 }
 
