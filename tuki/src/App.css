@@ -1,0 +1,39 @@
+body {
+  background-color: black  ;
+}
+.principal {
+  display: flex;
+  justify-content: center;
+align-content: center;
+
+}
+.imagen {
+display: flex;
+justify-content: center;
+align-content: center;
+}
+
+h1 {
+  
+  color: blue;
+  
+  }
+h2{
+  color: aquamarine;
+}
+.botonD{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: rebeccapurple;
+  
+  
+}
+.botonJ{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: rebeccapurple;
+  
+  
+}
