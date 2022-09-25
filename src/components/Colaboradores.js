@@ -18,4 +18,4 @@ function Colaboradores() {
         
         
     );
-} export default Colaboradores
+} export default Colaboradores;
