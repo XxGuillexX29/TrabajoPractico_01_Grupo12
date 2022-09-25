@@ -19,7 +19,22 @@ body {
   background-color: floralwhite ;
 }
 h1 {
-color: blue;
-text-align: center;
-}
+  color:brown;
+  text-align: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .ImagenColaborador{
+  height: 300px;
+  width: 300px;
+  }
+  .Descripcion{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+  }
+  .Parrafo{
+    color:brown;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  
 

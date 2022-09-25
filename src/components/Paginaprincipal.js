@@ -22,7 +22,7 @@ function Home() {
                 <Link to="/jugar" className="botonJ">Jugar</Link>
             </div></>
             <div className="colaboradores">
-                <Link to="/Colaboradores" className="botonD">Desarrolladores</Link>
+                <Link to="/Colaboradores" className="botonC">Colaboradores</Link>
             </div></>
 
     );
