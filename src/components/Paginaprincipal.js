@@ -1,4 +1,4 @@
-import inicio from "../components/img/PPT.png";
+import inicio from "./img/PPT.png";
 import "../index.css";
 import "../App.css";
 import { Link } from "react-router-dom";
@@ -25,7 +25,6 @@ function Home() {
                 <Link to="/Colaboradores" className="botonD">Desarrolladores</Link>
             </div></>
 
-        //TUKI2
     );
 }
 

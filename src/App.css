@@ -34,6 +34,39 @@ h2{
   justify-content: center;
   align-content: center;
   color: rebeccapurple;
-  
-  
+}
+
+.inicio{
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-evenly;
+}
+
+.titulo{
+  color: black;
+}
+
+.tamaño{
+  width: 300px;
+  height: 400px;
+}
+
+.lugar{
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-evenly;
+}
+
+.medio{
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+.boton{
+  width: 150px;
+  height: 50px;
+  align-items: center;
+  background-color: rgb(182, 124, 47);
+  color: white;
+  border: none;
 }
