@@ -1,13 +1,21 @@
-import './App.css';
+import "./App.css";
 import './index.js';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import Paginaprincipal from "./components/Paginaprincipal";
 
 function App() {
   return (
-    <>
-    <h1>HOLIS</h1>
-    </>
+    <Router>
+      <Routes>
+        <Route path= "/"element={<Paginaprincipal/>}/>;
+
+        
+      </Routes>
+
+    </Router>
   );
+
 }
 
 export default App;
