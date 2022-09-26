@@ -1,5 +1,6 @@
 import "../index.css";
 import "../App.css";
+
 let puntajesUsuario = document.querySelector(".puntajeJ");
 let puntajesComputadora = document.querySelector(".puntajeC");
 let puntosUsuario = 0;
@@ -11,6 +12,9 @@ let manoComputadora = document.querySelector(".mano-computadora");
 import PIEDRA from "./img/Piedra.png"
 import PAPEL from "./img/Papel.png"
 import TIJERA from "./img/Tijera.png"
+
+import imagen from "./img/Piedra.png";
+
 
 
 function Jugar() {

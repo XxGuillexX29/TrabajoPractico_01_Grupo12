@@ -21,13 +21,17 @@ h1 {
 h2{
   color: aquamarine;
 }
-.botonD{
+.botonC{
   display: flex;
   justify-content: center;
   align-content: center;
-  color: rebeccapurple;
-  
-  
+  color:brown;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 700;
+  border-radius: 25px;
+  padding: 10px 50px;
+  text-decoration: none;
+
 }
 .botonJ{
   display: flex;
