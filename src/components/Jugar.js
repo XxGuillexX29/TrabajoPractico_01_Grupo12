@@ -28,7 +28,8 @@ function Jugar() {
                             <img className="mano-Jugador" src={PIEDRA} alt="imagen" />
 
                         </div>
-                        <h2 className="puntajeJ"> Puntaje Igual a: 0 </h2>
+                        <h2 className="puntajeJ"> Puntaje Igual a </h2>
+                        <p className="Numero">0</p>
                     </div>
                     <div>
                         <div>
@@ -36,7 +37,8 @@ function Jugar() {
                             <img className="mano-Computadora" src={PIEDRA} alt="imagen" />
 
                         </div>
-                        <h2 className="puntajeC"> Puntaje Igual a: 0</h2>
+                        <h2 className="puntajeC"> Puntaje Igual </h2>
+                        <p className="Numero">0</p>
                     </div>
                 </section>
                 <div className="lugar">

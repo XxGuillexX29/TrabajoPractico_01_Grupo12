@@ -81,4 +81,12 @@ h2{
   align-items: center;
   background-color: rgb(182, 124, 47);
   color: white;
+
+  border: none;
+}
+
+.Numero{
+  justify-content: center;
+  color: black;
+
 }
