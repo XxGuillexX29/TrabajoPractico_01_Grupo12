@@ -1,6 +1,6 @@
 import "../index.css";
 import "../App.css";
-import imagen from './img/Piedra.png';
+import imagen from "./img/Piedra.png";
 
 
 
