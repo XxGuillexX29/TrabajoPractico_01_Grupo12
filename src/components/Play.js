@@ -2,18 +2,18 @@ let puntajesUsuario = document.querySelector(".puntajeJ");
 let puntajesComputadora = document.querySelector(".puntajeC");
 let puntosUsuario = 0;
 let puntosComputadora = 0;
-let BotonJ = document.querySelector(".botonJ");
+let Boton = document.querySelector(".Boton");
 let eleccionComputadora = "";
 let eleccionUsuario = "";
 let manoUsuaria = document.querySelector(".mano-usuaria");
 let manoComputadora = document.querySelector(".mano-computadora");
-import PIEDRA from './img/Piedra.png';
-import PAPEL from './img/Papel.png';
-import TIJERA from './img/Tijera.png';
+import PIEDRA from "./img/Piedra.png"
+import PAPEL from "./img/Papel.png"
+import TIJERA from "./img/Tijera.png"
 
-BotonJ.onclick = () => {
-    manoUsuaria.src = { PIEDRA };
-    manoComputadora.src = { PIEDRA };
+Boton.onclick = () => {
+    manoUsuaria.src = { PIEDRA }
+    manoComputadora.src = { PIEDRA }
     eleccionUsuario = obtenerEleccion();
     eleccionComputadora = obtenerEleccionComputadora();
     decidirPuntaje();
@@ -94,4 +94,4 @@ const decidirPuntaje = () => {
         }
     }
 }
-
+<script src="Play.js"></script>
