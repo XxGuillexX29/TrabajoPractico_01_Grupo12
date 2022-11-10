@@ -6,9 +6,9 @@ class ClaseColaboradores extends React.Component {
                 
                         <h1>{this.props.Nombre}</h1>
                         <a href="#">
-                            <  img class="ImagenColaborador" src={this.props.img} alt="Vista Previa"/></a>
-                        <h3 class="Descripcion">Descripcion</h3>
-                        <p class="Parrafo"> {this.props.Descripcion}</p>
+                            <  img className="ImagenColaborador" src={this.props.img} alt="Vista Previa"/></a>
+                        <h3 className="Descripcion">Descripcion</h3>
+                        <p className="Parrafo"> {this.props.Descripcion}</p>
                          
 </div>
                                 )
