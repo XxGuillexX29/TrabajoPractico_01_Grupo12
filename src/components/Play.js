@@ -6,7 +6,7 @@ const TIE = 0;
 const WIN = 1;
 const LOST = 2;
 
-let isPlaying = false;
+let isPlaying = false;  // declara que la variable isPlaying se asigne falso 
 
 const rockBtn = document.getElementById("Piedra");
 const paperBtn = document.getElementById("Papel");
@@ -19,11 +19,11 @@ let puntosComputadora = 0;
 let puntajesUsuario = document.querySelector(".puntajeJ");
 let puntajesComputadora = document.querySelector(".puntajeC");
 
-rockBtn.addEventListener("click", () => {
+rockBtn.addEventListener("click", () => { // se agrega el detector para hacer click en piedra
     play(Piedra);
 });
-paperBtn.addEventListener("click", () => {
-    play(Papel);
+paperBtn.addEventListener("click", () => { // se agrega el detector para hacer click en papel
+    play(Papel); 
 });
 scissorsBtn.addEventListener("click", () => {
     play(Tijera);
