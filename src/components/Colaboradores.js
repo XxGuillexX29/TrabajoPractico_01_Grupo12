@@ -1,5 +1,5 @@
-import "../index.css";
-import "../App.css";
+// import "./Css/index.css";
+// import "./Css/App.css";
 import ClaseColaboradores from "./ClaseColaboradores";
 import Listacolaboradores from "./Json/Listacolaboradores.json";
 import Row from "react-bootstrap/Row";

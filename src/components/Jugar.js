@@ -1,5 +1,5 @@
-import "../index.css";
-import "../App.css";
+// import "./Css/index.css";
+// import "./Css/App.css";
 
 function Jugar() {
     return (

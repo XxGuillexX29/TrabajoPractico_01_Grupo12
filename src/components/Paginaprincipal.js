@@ -1,6 +1,6 @@
 import inicio from "./img/piedrapapelotijera.jpg";
-import "../index.css";
-import "../App.css";
+import "./Css/index.css";
+import "./Css/App.css";
 import { Link } from "react-router-dom";
 function Home() {
     return (

@@ -52,11 +52,11 @@ h2{
 
 .mano-Jugador{
   width: 300px;
-  height: 400px;
+  height: 280px;
 }
 .mano-Computadora{
   width: 300px;
-  height: 400px;
+  height: 280px;
 }
 
 .lugar{
@@ -77,7 +77,7 @@ h2{
 }
 .botonJ{
   width: 150px;
-  height: 50px;
+  height: 40px;
   align-items: center;
   background-color: rgb(182, 124, 47);
   color: white;
@@ -88,12 +88,13 @@ h2{
   display: flex;
   justify-content: center;
   align-content: center;
+  height: 200px;
   
   
 }
 #Botones > button > img{
   width: 300px;
-  height: 400px;
+  height: 200px;
 }
 #start-text{
   font-size: 36px;

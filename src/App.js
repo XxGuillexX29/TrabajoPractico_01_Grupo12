@@ -1,6 +1,6 @@
-import "./App.css";
+import "./components/Css/App.css";
+import './components/Css/index.css';
 import './index.js';
-import './index.css';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import Paginaprincipal from "./components/Paginaprincipal";
 import Jugar from "./components/Jugar";
