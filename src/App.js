@@ -3,7 +3,7 @@ import './components/Css/index.css';
 import './index.js';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import Paginaprincipal from "./components/Paginaprincipal";
-import Jugar from "./components/Jugar";
+import Jugar from "./components/PruebaPPT";
 import Colaboradores from "./components/Colaboradores";
 //import "./components/Play";
 
@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path= "/"element={<Paginaprincipal/>}/>;
         <Route path= "/Colaboradores" element={<Colaboradores/>}/>;
-        <Route path= "/Jugar" element={<Jugar/>}/>;
+        <Route path= "/PiedraPapelTijera" element={<Jugar/>}/>;
       </Routes>
     </Router>
   );
