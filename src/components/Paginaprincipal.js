@@ -1,28 +1,30 @@
-import inicio from "./img/piedrapapelotijera.jpg";
+import imagenJuego from "./img/opcion1.png";
 import "./Css/index.css";
 import "./Css/App.css";
 import { Link } from "react-router-dom";
-function Home() {
-    return (
-        <><><><div className="principal">
-            <h1>Piedra, Papel y Tijeras</h1>
 
-        </div>
+export default function Home() {
+    return ( 
+        //Se colocaron imagenes y botonea de cada juegos y colaboradores 
+        <><div className="principal">
+            <h1>Piedra, Papel y Tijera</h1>
 
+        </div><div className="imagen">
 
-            <div className="imagen">
+                <img src={imagenJuego} alt="Juego" />
 
-                <img src={inicio} alt="Juego" />
-
-            </div></>
-            <div className="jugar">
-                <Link to="/Jugar" className="botonC">Jugar</Link>
-            </div></>
-            <div className="colaboradores">
-                <Link to="/Colaboradores" className="botonC">Colaboradores</Link>
-            </div></>
+            </div><nav>
+                <ul> 
+                    <li>
+                        <Link to="/PiedraPapelTijera" className="botonJugar">Piedra papel o tijera</Link>
+                    </li>
+                    <li>
+                        <Link to="/Colaboradores" className="botonJugar">Colaboradores</Link>
+                    </li>
+                    
+                </ul>
+            </nav></>
 
     );
 }
 
-export default Home;

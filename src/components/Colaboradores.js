@@ -1,5 +1,3 @@
-// import "./Css/index.css";
-// import "./Css/App.css";
 import ClaseColaboradores from "./ClaseColaboradores";
 import Listacolaboradores from "./Json/Listacolaboradores.json";
 import Row from "react-bootstrap/Row";
@@ -13,9 +11,6 @@ function Colaboradores() {
             <ClaseColaboradores
             img={listaC.img}Nombre={listaC.Nombre}Descripcion={listaC.Descripcion}></ClaseColaboradores>)}
             </Row>
-        </Conteiner>
-        
-        
-        
+        </Conteiner>     
     );
 } export default Colaboradores;
